@@ -1,0 +1,24 @@
+.Nav {
+  background-color: rgb(47, 190, 159);
+  color: black;
+  padding: 0 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: 0 2rem;
+}
+
+.Nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+ul {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+  display: flex;
+}
