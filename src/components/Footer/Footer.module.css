@@ -1,8 +1,8 @@
 .Footer {
-  width: 800px;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
-  gap: 170px;
-  padding: 0 20px;
+  justify-content: space-between;
+  padding: 0 100px;
   flex-wrap: wrap;
 }

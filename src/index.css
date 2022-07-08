@@ -5,8 +5,13 @@ body {
   padding: 0;
 }
 .container {
-  width: 800px;
+  width: 1024px;
 }
 .background {
   background-color: rgb(47, 190, 159);
+}
+.wrapper_header {
+  margin: 0 auto;
+  padding: 0 300px;
+  width: 768px;
 }

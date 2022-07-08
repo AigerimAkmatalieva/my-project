@@ -9,8 +9,8 @@ function Header() {
       <button>Найти работу</button>
       <button>Заказать</button>
       </div>
-      <div>
-        <img src={headerImage} alt="#" />
+      <div className={classes.background}>
+       
       </div>
     </div>
    );
