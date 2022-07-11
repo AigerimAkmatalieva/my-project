@@ -6,6 +6,8 @@
   font-weight: 700;
   letter-spacing: 0.1em;
   margin: 0 2rem;
+  position: fixed;
+  top: 0;
 }
 
 .Nav .container {
@@ -13,6 +15,7 @@
   align-items: center;
   justify-content: space-between;
   max-width: 100%;
+  height: 80px;
   margin: 0 auto;
   padding: 0 1rem;
 }

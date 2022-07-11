@@ -1,19 +1,19 @@
 .Header {
   margin: 0 auto;
-  padding: 90px;
-  max-width: 100%;
+  padding: 80px 250px;
+  width: 768px;
   display: flex;
 }
 .Header .background {
-  width: 940px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
  background-color: aquamarine;
 }
 .Header .hero h1 {
   font-family: 'Gulzar', serif;
   font-size: 30px;
-  padding: 100px 0;  
+  padding: 20px 0;
 }
 .Header button {
   font-family: 'Gulzar', serif;

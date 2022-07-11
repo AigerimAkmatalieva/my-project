@@ -1,5 +1,4 @@
 import classes from "./Header.module.css"
-import headerImage from "../../assets/header.webp"
 
 function Header() {
   return ( 
