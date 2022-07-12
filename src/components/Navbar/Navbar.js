@@ -4,12 +4,12 @@ import NavItem from "./NavItem/NavItem";
 
 function Navbar() {
   return (
-    <div className="background">
+    <div className={classes.background}>
       <div className={classes.Nav}>
       <div className={classes.container}>
         <ul>
         <Logo />
-          <NavItem url="/vacancies">Поиск вакансий и сотрудников</NavItem>
+          <NavItem url="/newsportal">Новости</NavItem>
           <NavItem url="/courses">Курсы и услуги</NavItem>
           <NavItem url="/freelans">Фриланс биржа</NavItem>
           <NavItem url="/">Регистрация</NavItem>

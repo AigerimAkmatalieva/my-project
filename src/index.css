@@ -6,12 +6,8 @@ body {
   background-color: #fff;
   opacity: 0.8;
 }
-
-.background {
-  background-color: rgb(47, 190, 159);
-}
 .wrapper_header {
   margin: 0 auto;
-  padding: 100px 300px;
+  padding: 100px 200px;
   width: 768px;
 }

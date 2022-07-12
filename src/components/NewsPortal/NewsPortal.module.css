@@ -1,0 +1,24 @@
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 40px 0;
+}
+
+.main_column {
+  flex: 3;
+}
+.main_column1 {
+  flex: 1;
+  color: black;
+}
+.footer_display {
+  display: flex;
+}
+.footer_display div {
+  flex: 1;
+}
+
+
