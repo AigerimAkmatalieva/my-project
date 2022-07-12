@@ -6,13 +6,13 @@
   flex: 1;
   padding: 40px 0;
 }
-
 .main_column {
   flex: 3;
 }
-.main_column1 {
+.main_column1 a {
   flex: 1;
   color: black;
+  list-style-type: none;
 }
 .footer_display {
   display: flex;

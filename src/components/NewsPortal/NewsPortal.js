@@ -49,11 +49,7 @@ function NewsPortal() {
         </div>
       </div>
 
-
-
       <hr />
-
-
 
       <NewsPortal2 />
     </>
