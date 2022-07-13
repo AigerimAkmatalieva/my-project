@@ -6,6 +6,7 @@ import Layout from "./components/Layout/Layout";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import NewsPortal from "./pages/News";
+import Main from "./pages/Main";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Layout>
         <Routes>
+          <Route path="/main" element={<Main />} />
           <Route path="/newsportal" element={<NewsPortal />} />
           <Route path="/freelans" element={<Freelans />} />
           <Route path="/courses" element={<Courses />} />

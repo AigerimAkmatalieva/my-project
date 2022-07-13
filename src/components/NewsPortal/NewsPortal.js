@@ -1,4 +1,5 @@
-import NewsPortal2 from "../NewsPortal2/NewsPortal2";
+import React from "react";
+// import NewsPortal2 from "../NewsPortal2/NewsPortal2";
 import classes from "./NewsPortal.module.css";
 
 
@@ -10,33 +11,33 @@ function NewsPortal() {
           <h1>Новостной портал</h1>
           <div className={classes.columns}>
             <div className={classes.main_column1}>
-              <a href="#">
+              {/* <a href="#"> */}
                 <h3>Hello world</h3>
-                <img src="img" />
+                <img src="img" alt="img" />
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, nobis.</p>
-              </a>
+              {/* </a> */}
               <footer className={classes.footer_display}>
                 <div>500</div>
                 <div>11.07.22</div>
               </footer>
             </div>
             <div className={classes.main_column1}>
-              <a href="#">
+              {/* <a href="#"> */}
                 <h3>Hello world</h3>
-                <img src="img" />
+                <img src="img" alt="img"/>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, nobis.</p>
-              </a>
+              {/* </a> */}
               <footer className={classes.footer_display}>
                 <div>500</div>
                 <div>11.07.22</div>
               </footer>
             </div>
             <div className={classes.main_column1}>
-              <a href="#">
+              {/* <a href="#"> */}
                 <h3>Hello world</h3>
-                <img src="img" />
+                <img src="img" alt="img" />
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, nobis.</p>
-              </a>
+              {/* </a> */}
               <footer className={classes.footer_display}>
                 <div>500</div>
                 <div>11.07.22</div>
@@ -51,7 +52,7 @@ function NewsPortal() {
 
       <hr />
 
-      <NewsPortal2 />
+      {/* <NewsPortal2 /> */}
     </>
   );
 }
