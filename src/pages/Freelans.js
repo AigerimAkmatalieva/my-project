@@ -1,3 +1,5 @@
+import Jobs from "../components/Jobs/Jobs";
+
 function Feeelans() {
   return ( 
     <div className="wrapper_header">
@@ -7,6 +9,7 @@ function Feeelans() {
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta dolorem expedita impedit nihil nostrum, odit pariatur libero dolores quis tempore provident? Odio suscipit dicta animi ex, aliquam quis repellat deleniti.
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta dolorem expedita impedit nihil nostrum, odit pariatur libero dolores quis tempore provident? Odio suscipit dicta animi ex, aliquam quis repellat deleniti.
       </p>
+      <Jobs />
     </div>
    );
 }
