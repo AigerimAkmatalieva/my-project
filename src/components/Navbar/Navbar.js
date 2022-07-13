@@ -6,19 +6,33 @@ function Navbar() {
   return (
     <div className={classes.background}>
       <div className={classes.Nav}>
-      <div className={classes.container}>
-        <ul>
-        <Logo />
-          <NavItem url="/newsportal">Информационно-новостной портал</NavItem>
-          <NavItem url="/courses">Курсы и услуги</NavItem>
-          <NavItem url="/freelans">Фриланс биржа</NavItem>
-        </ul>
-        <ul>
-        <NavItem url="/auth">Login</NavItem>
-          <NavItem url="/checkout">Sign Up</NavItem>
-        </ul>
+        <div className={classes.container}>
+          <ul>
+            <Logo />
+            <NavItem url="/main">Главная</NavItem>
+            <NavItem url="/newsportal">Новости</NavItem>
+            <NavItem url="/courses">Курсы и услуги</NavItem>
+            <NavItem url="/freelans">Фриланс биржа</NavItem>
+
+          </ul>
+          <ul>
+            <NavItem url="/">Регистрация</NavItem>
+            <NavItem url="/">Войти</NavItem>
+          </ul>
+        </div>
+        <div className={classes.container}>
+          <ul>
+            <Logo />
+            <NavItem url="/newsportal">Информационно-новостной портал</NavItem>
+            <NavItem url="/courses">Курсы и услуги</NavItem>
+            <NavItem url="/freelans">Фриланс биржа</NavItem>
+          </ul>
+          <ul>
+            <NavItem url="/auth">Login</NavItem>
+            <NavItem url="/checkout">Sign Up</NavItem>
+          </ul>
+        </div>
       </div>
-    </div>
     </div>
   );
 }
