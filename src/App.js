@@ -7,6 +7,8 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import NewsPortal from "./pages/News";
 import Main from "./pages/Main";
+import Auth from "./components/Auth/Auth";
+import Checkout1 from "./pages/Checkout1";
 
 function App() {
   return (
@@ -18,10 +20,10 @@ function App() {
           <Route path="/newsportal" element={<NewsPortal />} />
           <Route path="/freelans" element={<Freelans />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/auth" element={ <Auth/> } />
+          <Route path="/checkout" element={ <Checkout1/> } />
         </Routes>
       </Layout>
-      <Header />
-      <Footer />
     </div>
   );
 }

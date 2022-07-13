@@ -1,11 +1,10 @@
 import React from "react";
-// import NewsPortal2 from "../NewsPortal2/NewsPortal2";
 import classes from "./NewsPortal.module.css";
 
 
 function NewsPortal() {
   return (
-    <>
+    <div>
       <div className={classes.columns}>
         <div className={classes.main_column}>
           <h1>Новостной портал</h1>
@@ -49,11 +48,7 @@ function NewsPortal() {
           <input type="search" title="Поиск" placeholder="Поиск..." name="search" />
         </div>
       </div>
-
-      <hr />
-
-      {/* <NewsPortal2 /> */}
-    </>
+    </div>
   );
 }
 
