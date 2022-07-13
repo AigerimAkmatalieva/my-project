@@ -16,20 +16,8 @@ function Navbar() {
 
           </ul>
           <ul>
-            <NavItem url="/">Регистрация</NavItem>
-            <NavItem url="/">Войти</NavItem>
-          </ul>
-        </div>
-        <div className={classes.container}>
-          <ul>
-            <Logo />
-            <NavItem url="/newsportal">Информационно-новостной портал</NavItem>
-            <NavItem url="/courses">Курсы и услуги</NavItem>
-            <NavItem url="/freelans">Фриланс биржа</NavItem>
-          </ul>
-          <ul>
-            <NavItem url="/auth">Login</NavItem>
-            <NavItem url="/checkout">Sign Up</NavItem>
+            <NavItem url="/auth">Регистрация</NavItem>
+            <NavItem url="/checkout">Войти</NavItem>
           </ul>
         </div>
       </div>
