@@ -13,7 +13,6 @@ function Navbar() {
             <NavItem url="/newsportal">Новости</NavItem>
             <NavItem url="/courses">Курсы и услуги</NavItem>
             <NavItem url="/freelans">Фриланс биржа</NavItem>
-
           </ul>
           <ul>
             <NavItem url="/auth">Регистрация</NavItem>
