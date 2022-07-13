@@ -1,5 +1,5 @@
 .Nav {
-  background-color: rgb(47, 190, 159);
+  background-color: rgb(42, 110, 21);
   color: black;
   padding: 0 1.5rem;
   font-size: 1rem;
@@ -26,5 +26,5 @@ ul {
   display: flex;
 }
 .background {
-  background-color: rgb(47, 190, 159);
+  background-color: rgb(42, 110, 21);
 }

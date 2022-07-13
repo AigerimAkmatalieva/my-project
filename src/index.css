@@ -8,6 +8,6 @@ body {
 }
 .wrapper_header {
   margin: 0 auto;
-  padding: 100px 200px;
-  width: 70%;
+  padding: 100px;
+  max-width: 100%;
 }

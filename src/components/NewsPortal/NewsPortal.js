@@ -1,4 +1,3 @@
-import NewsPortal2 from "../NewsPortal2/NewsPortal2";
 import classes from "./NewsPortal.module.css";
 
 
@@ -48,10 +47,6 @@ function NewsPortal() {
           <input type="search" title="Поиск" placeholder="Поиск..." name="search" />
         </div>
       </div>
-
-      <hr />
-
-      <NewsPortal2 />
     </>
   );
 }

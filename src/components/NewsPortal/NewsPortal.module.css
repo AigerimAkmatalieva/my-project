@@ -4,10 +4,13 @@
 
 .column {
   flex: 1;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .main_column {
   flex: 3;
+}
+.main_column h1 {
+  padding: 60px 0;
 }
 .main_column1 a {
   flex: 1;

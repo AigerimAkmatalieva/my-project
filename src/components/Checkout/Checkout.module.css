@@ -1,0 +1,23 @@
+.wrapper {
+  padding: 200px 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper1 {
+  display: flex;
+}
+.card_1 {
+  width: 400px;
+  height: 200px;
+  padding: 50px;
+  border: 2px solid rgb(42, 110, 21);
+  margin: 15px;
+}
+.card_2 {
+  width: 400px;
+  height: 200px;
+  padding: 50px;
+  border: 2px solid rgb(42, 110, 21);
+  margin: 15px;
+}

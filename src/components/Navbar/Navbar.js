@@ -9,15 +9,13 @@ function Navbar() {
       <div className={classes.container}>
         <ul>
         <Logo />
-          <NavItem url="/newsportal">Новости</NavItem>
+          <NavItem url="/newsportal">Информационно-новостной портал</NavItem>
           <NavItem url="/courses">Курсы и услуги</NavItem>
           <NavItem url="/freelans">Фриланс биржа</NavItem>
-          <NavItem url="/">Регистрация</NavItem>
-          <NavItem url="/">Войти</NavItem>  
         </ul>
         <ul>
-        <NavItem url="/">Login</NavItem>
-          <NavItem url="/">Sign Up</NavItem>
+        <NavItem url="/auth">Login</NavItem>
+          <NavItem url="/checkout">Sign Up</NavItem>
         </ul>
       </div>
     </div>
