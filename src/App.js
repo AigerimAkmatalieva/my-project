@@ -22,6 +22,7 @@ function App() {
           <Route path="/checkout" element={ <Checkout1/> } />
         </Routes>
       </Layout>
+      <Footer />
     </div>
   );
 }

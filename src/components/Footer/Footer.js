@@ -5,16 +5,16 @@ function Footer() {
     <div className="background">
       <div className={classes.Footer}>
       <div>
-        <h4>For Client</h4>
+        <h5>For Client</h5>
       </div>
       <div>
-        <h4>For Talent</h4>
+        <h5>For Talent</h5>
       </div>
       <div>
-        <h4>Resources</h4>
+        <h5>Resources</h5>
       </div>
       <div>
-        <h4>Company</h4>
+        <h5>Company</h5>
       </div>
     </div>
     </div>
