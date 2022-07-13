@@ -4,10 +4,13 @@ import classes from "./CategoryItem.module.css";
 
 function CategoryItem({ category }) {
   return (
-    <div className={classes.CategoryItem}>
-      <br/>
-      <Link to={"/categories/" + category.categoryId}>{category.title}</Link>
+   <div className={classes.card}>
+     <div className={classes.CategoryItem}>
+      <Link to={"/categories/" + category.categoryId}>
+       <span> {category.title}</span>
+        </Link>
     </div>
+   </div>
   );
 }
 

@@ -1,0 +1,26 @@
+.card {
+  position: relative;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 20px 0;
+}
+.card {
+  width: 200px;
+}
+
+.CategoryItem {
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+  color: rgb(49, 138, 197);
+  font-weight: 300;
+  font-size: 1.3rem;
+  padding: 20px 10px;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  transition: .2s ease-in-out;
+}
+
+
+

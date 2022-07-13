@@ -9,6 +9,7 @@ import NewsPortal from "./pages/News";
 import Main from "./pages/Main";
 import Auth from "./components/Auth/Auth";
 import Checkout1 from "./pages/Checkout1";
+import Categories from "./pages/Categories";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/main" element={<Main />} />
           <Route path="/newsportal" element={<NewsPortal />} />
+          <Route path="/categories" element={<Categories />} />
           <Route path="/freelans" element={<Freelans />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/auth" element={ <Auth/> } />

@@ -1,4 +1,6 @@
+import CategoryList from "../components/CategoryList/CategoryList";
 import Jobs from "../components/Jobs/Jobs";
+import { getCategories } from "../data/categories";
 
 function Feeelans() {
   return ( 
@@ -6,6 +8,7 @@ function Feeelans() {
       <h1>Freelans</h1>
       
       <Jobs />
+      <CategoryList categories={getCategories()} />
     </div>
    );
 }

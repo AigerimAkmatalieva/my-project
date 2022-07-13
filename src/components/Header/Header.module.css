@@ -1,8 +1,10 @@
 .Header {
+  font-family: 'Gulzar', serif;
   margin: 0 auto;
   padding: 0px 300px;
   max-width: 100%;
   display: flex;
+  color: white;
 }
 .Header .background {
   width: 400px;
@@ -21,5 +23,6 @@
   font-weight: 600;
   border-radius: 10px;
   background-color: rgb(131, 173, 201);
+  color: black;
   margin: 0 10px;
 }
