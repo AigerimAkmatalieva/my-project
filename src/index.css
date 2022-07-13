@@ -11,10 +11,12 @@ body {
 }
 .wrapper_header {
   margin: 0 auto;
-  padding: 100px 200px;
-  width: 70%;
+  padding: 100px 190px;
+  width: 100%;
 }
-
+.main {
+  padding: 100px 150px;
+}
 @keyframes sky-change {
   0% {
     background: darkslateblue;
